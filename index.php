@@ -35,7 +35,7 @@
 				<div class="index-div-2">
 					<div class="center">
 						<div class="center-holder">
-							<h1 class="index-h1-1 display">Lorem ipsum dolor.</h1>
+							<h1 class="index-h1-1 display">Lorem ipsum dolordd.</h1>
 							<p class="index-p-2 display">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
 						</div>
 					</div>
