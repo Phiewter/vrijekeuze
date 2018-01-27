@@ -1,0 +1,164 @@
+/* IMPORT FONTS */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
+@import url('https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+@import url('https://fonts.googleapis.com/css?family=Arapey');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montaga');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+@font-face {
+	font-family: 'pwmas';
+	src: url(css/pmwas.ttf);
+}
+
+/* ALGEMENE CSS */
+
+body, html {
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+	font-family: 'Open Sans', serif;
+}
+
+/* INDEX PAGINA */
+
+.background {
+	background-image: url("images/background_imagehills.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.padding-top {
+	padding-top: 100px;
+}
+
+.header-in {
+	background-color: #f8f9fa;
+	transition: 0.4s;
+	transition-timing-function: ease-in;
+	-webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+	-moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+	-o-box-shadow:0 0 20px rgba(0,0,0,0.8);
+	box-shadow:0 0 20px rgba(0,0,0,0.8);
+}
+
+.header-out {
+	transition: 0.2s;
+	transition-timing-function: ease-out;
+}
+
+.index-a {
+	color: #1a1a1a;
+	font-size: 20px;
+	transition: 0.5s all;
+}
+
+
+.index-a:hover {
+	color: #202020;
+	transition: 0.5s all;
+	text-shadow: #2e3133;
+}
+
+.index-button-main {
+	margin-right: 1em;
+}
+
+.index-button-main:hover {
+	transition: 0.5s all ;
+} 
+
+.index-button-sub {
+	border: solid 1.25px;
+	border-radius: 5px;
+	background-color: transparent;
+	color: #1a1a1a;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	transition: 0.5s all;
+}
+
+.index-button-sub:hover {
+	background-color: rgba(253, 254, 255, 0.69);
+	color: #1a1a1a;
+	transition: 0.5s all;
+	-webkit-box-shadow: inset 0px -1px 3px 0px rgba(26, 26, 26, 0.75);
+	-moz-box-shadow: inset 0px -1px 3px 0px rgba(26, 26, 26, 0.75);
+	-o-box-shadow: inset 0px -1px 3px 0px rgba(26, 26, 26, 0.75);
+	box-shadow: inset 0px -1px 3px 0px rgba(26, 26, 26, 0.75);
+}
+
+.index-button-sub-out {
+	color: #4bb543;
+	transition: 0.5s all;
+}
+
+.index-button-sub-out:hover {
+	color: #4bb543;
+	transition: 0.5s all;
+}
+
+.fw {
+	width: 100%;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.index-p-1 {
+	font-family: 'Playfair Display SC', sans-serif;
+	font-size: 72px;
+}
+
+.index-div-2 {
+	width: 100%;
+	height: 500px;
+}
+
+.index-p-2 {
+	font-size: 24px;
+}
+
+.display {
+	display: none;
+}
+
+/* LOG-IN PAGINA */
+
+.login-div-1 {
+	height: 874px;
+}
+
+.login-div-2 {
+	height: 600px;
+	width: 60%;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+	-o-box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+	box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.login-div-3 {
+	
+}
+
+.login-image-1 {
+	padding: 0px 0px 30px 65px;
+}
